@@ -5,7 +5,7 @@ import { LoginPage } from '../login/login';
 import { RegisterPage } from '../register/register';
 
 
- //Niko Mäkelä 1601538, Matias Rantanen 1601551
+ //Matias Rantanen 1601551
 
 @IonicPage()
 @Component({

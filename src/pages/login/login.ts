@@ -3,15 +3,9 @@ import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angu
 import { AngularFireAuth } from 'angularfire2/auth';
 import { MenuPage } from '../menu/menu';
 
-//Niko Mäkelä 1601538, Matias Rantanen 1601551
+//Matias Rantanen 1601551
 
 
-/**
- * Generated class for the LoginPage page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
 @IonicPage()
 @Component({
   selector: 'page-login',

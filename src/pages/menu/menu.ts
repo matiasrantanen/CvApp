@@ -2,16 +2,8 @@ import { Component, ViewChild } from '@angular/core';
 import { IonicPage, NavController, NavParams, Nav } from 'ionic-angular';
 import { AngularFireAuth } from 'angularfire2/auth';
 
-/**
- * Generated class for the MenuPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
- /** interface */
-
- //Niko Mäkelä 1601538, Matias Rantanen 1601551
+ // Matias Rantanen 1601551
+ 
  export interface PageInterface {
    title: string;
    pageName: string;

@@ -17,17 +17,17 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { FirebaseProvider } from '../providers/firebase/firebase';
 
 
-//Niko Mäkelä 1601538, Matias Rantanen 1601551
+//Matias Rantanen 1601551
 
 
 const firebaseAuth = {
 
-  apiKey: "AIzaSyB388DkWvpE0iuA7CfVf-iR0MDYK71exBc",
-  authDomain: "labwork-5-accac.firebaseapp.com",
-  databaseURL: "https://labwork-5-accac.firebaseio.com",
-  projectId: "labwork-5-accac",
-  storageBucket: "labwork-5-accac.appspot.com",
-  messagingSenderId: "393544419026"
+  apiKey: "AIzaSyDU-4d252PU_wE_HzjzO6U7vuZe6wXiDFQ",
+  authDomain: "cvapp-7bce3.firebaseapp.com",
+  databaseURL: "https://cvapp-7bce3.firebaseio.com",
+  projectId: "cvapp-7bce3",
+  storageBucket: "",
+  messagingSenderId: "402572760169"
 };
 
 @NgModule({

@@ -1,9 +1,11 @@
 import { Injectable } from '@angular/core';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
  
-//Niko Mäkelä 1601538, Matias Rantanen 1601551
+//Matias Rantanen 1601551
 @Injectable()
+
 //Handles data between firebase and app
+
 export class FirebaseProvider {
  
   constructor(public afd: AngularFireDatabase) { }
