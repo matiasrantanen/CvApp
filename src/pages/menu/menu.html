@@ -1,0 +1,32 @@
+<!--
+  Generated template for the MenuPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<!--//Niko Mäkelä 1601538, Matias Rantanen 1601551-->
+
+<ion-menu [content]="content">
+  
+  
+  <ion-header>
+  
+    <ion-navbar>
+      <ion-title>menu</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content>
+    <ion-list>
+      <button ion-item menuClose *ngFor="let p of pages" (click)="openPage(p)">
+        <ion-icon item-start [name]="p.icon" [color]="isActive(p)"></ion-icon>
+        {{p.title}}
+      </button>
+    </ion-list>
+  </ion-content>
+  </ion-menu>
+  <!-- navi code -->
+  <ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

@@ -1,0 +1,46 @@
+
+
+<!--//Niko Mäkelä 1601538, Matias Rantanen 1601551-->
+<ion-header>
+
+  <ion-navbar>
+      <ion-buttons start>
+          <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+          </button>
+        </ion-buttons>
+
+    <ion-title>To Do List</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <p class="todo">You can add tasks just by clicking add and remove them by sliding the task to left and clicking trash can icon.</p>
+  <ion-row>
+    
+
+    <!--code for adding new task-->
+    <ion-col col-9>
+      <ion-item>
+        <ion-input type="text" [(ngModel)]="newItem" placeholder="New task"></ion-input>
+      </ion-item>
+    </ion-col>
+    <ion-col>
+      <button ion-button (click)="addItem()">Add!</button>
+    </ion-col>
+  </ion-row>
+  
+ <!--list for added tasks-->
+  <ion-list>
+    <ion-item-sliding *ngFor="let item of tasks | async">
+      <ion-item>
+        {{ item.$value }}
+      </ion-item>
+      <ion-item-options side="right">
+        <button ion-button color="danger" icon-only (click)="removeItem(item.$key)"><ion-icon name="trash"></ion-icon></button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>
