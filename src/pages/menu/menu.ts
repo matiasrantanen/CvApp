@@ -21,15 +21,17 @@ export class MenuPage {
   email: string;
 
 //Here you can add pages to the menu within the application
+//Menu pages are those that do not have a pageName: TabsPage marking
+//Also changed the icons in the menu to clearify the menu in the application
   rootPage="TabsPage";
   @ViewChild(Nav) nav: Nav;
   pages: PageInterface[] = [
-    { title: 'Home', pageName: 'TabsPage', tabComponent: 'ServicePage', index: 0, icon: 'home'}, //home
-    { title: 'CV', pageName: 'TabsPage', tabComponent: 'TargetedcvPage', index: 1, icon: 'list-box'}, //list-box
-    { title: 'Project Work', pageName: 'ProjectworkPage', icon: 'school'}, //school
-    { title: 'Extra Curriculum Activities', pageName: 'ExtraPage', icon: 'walk'}, //walk    
-    { title: 'Contact Me', pageName: 'ContactPage', icon: 'contact'}, //contact
-    { title: 'About', pageName: 'TabsPage', tabComponent: 'AboutPage', index: 6, icon: 'information'}, //information circle
+    { title: 'Home', pageName: 'TabsPage', tabComponent: 'ServicePage', index: 0, icon: 'home'},
+    { title: 'CV', pageName: 'TabsPage', tabComponent: 'TargetedcvPage', index: 1, icon: 'list-box'},
+    { title: 'Project Work', pageName: 'ProjectworkPage', icon: 'school'},
+    { title: 'Extra Curriculum Activities', pageName: 'ExtraPage', icon: 'walk'}, 
+    { title: 'Contact Me', pageName: 'ContactPage', icon: 'contact'},
+    { title: 'About', pageName: 'TabsPage', tabComponent: 'AboutPage', index: 2, icon: 'information-circle'},
   
     
   ];
