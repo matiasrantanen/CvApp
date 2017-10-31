@@ -17,7 +17,7 @@ export class HomePage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  //Adding functions to the buttons
+  //Adding functionalities for the Login and Register buttons
 
  doLogin(){
    this.navCtrl.push(LoginPage);

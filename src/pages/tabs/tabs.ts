@@ -11,10 +11,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'tabs.html',
 })
 
-//Define the tab pages
+//Adding the tab navigation
 export class TabsPage {
   tab1Root='ServicePage';
-  tab2Root='TodolistPage';
+  tab2Root='TargetedcvPage';
   tab3Root='AboutPage';
   myIndex: number;
 

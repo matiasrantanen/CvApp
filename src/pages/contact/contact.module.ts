@@ -11,3 +11,5 @@ import { ContactPage } from './contact';
   ],
 })
 export class ContactPageModule {}
+
+//Matias Rantanen 1601551
