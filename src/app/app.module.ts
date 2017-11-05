@@ -19,7 +19,7 @@ import { FirebaseProvider } from '../providers/firebase/firebase';
 
 //Matias Rantanen 1601551
 
-
+//Add these information that you get from the firebase website
 const firebaseAuth = {
 
   apiKey: "AIzaSyDU-4d252PU_wE_HzjzO6U7vuZe6wXiDFQ",

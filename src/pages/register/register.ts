@@ -31,7 +31,7 @@ export class RegisterPage {
       buttons: ['OK']
     }).present();
   }
-/**Adding function to button */
+//Adding functionalaties to the register button
   registerUser() {
     this.fire.auth.createUserWithEmailAndPassword(this.user.value , this.password.value)
     .then(data => {
